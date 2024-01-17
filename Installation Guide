@@ -1,0 +1,44 @@
+
+packages installation sources.
+
+1.	Update packages – apt update
+
+2.	Git- https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+3.	Java- https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-22-04
+
+4.	Maven- sudo apt install maven
+
+5.	Jenkins - https://www.jenkins.io/doc/book/installing/linux/#debianubuntu
+
+6.	Docker - https://docs.docker.com/engine/install/ubuntu/
+
+7.	Ansible- https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html#installing-ansible-on-debian
+
+8.  Tomcat installation - https://linuxhint.com/install_apache_tomcat_server_ubuntu_2204/
+
+9.  aws cli - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+10. terraform -  https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+ 
+11. prometheus - apt install prometheus
+					
+				 service prometheus status
+
+12. Node exporter - apt install prometheus-node-exporter
+					
+					service prometheus-node-exporter status
+					
+13. Grafana -  https://grafana.com/docs/grafana/latest/setup-grafana/installation/debian/
+
+14.  Kubernetes-  kubeadm https://github.com/LondheShubham153/kubestarter/blob/main/kubeadm_installation.md	
+
+15. kubernetes with jenkins- 	https://www.fosstechnix.com/integrate-remote-kubernetes-cluster-with-jenkins/			
+
+
+add user grups:
+	sudo chmod 777 /var/run/docker.sock
+1.	sudo usermod -aG docker $USER
+2.	sudo usermod -a -G docker jenkins
+3.	sudo usermod -aG jenkins $USER
+
